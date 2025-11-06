@@ -15,7 +15,7 @@ Furthermore, vegetation recovery over subsequent years is examined using **NDVI*
 ### **Normalized Burn Ratio (NBR)**
 
 `
-NBR = \frac{(NIR - SWIR)}{(NIR + SWIR)}
+NBR = (NIR - SWIR)/(NIR + SWIR)
 `
 
 Burned areas exhibit **low NIR** and **high SWIR** reflectance.  
@@ -27,7 +27,7 @@ Burned areas exhibit **low NIR** and **high SWIR** reflectance.
 ### **Delta Normalized Burn Ratio (dNBR)**
 
 `
-dNBR = NBR_{pre-fire} - NBR_{post-fire}
+dNBR = NBR_pre-fire - NBR_post-fire
 `
 
 A higher **dNBR** indicates more severe fire damage, while **negative values** may suggest vegetation regrowth.
@@ -54,12 +54,7 @@ The workflow is designed to be **easily adaptable to other wildfire regions**.
 
     ![Pre- and Post fire, Water Mask, NBR and dNBR](figures/burnt_areas.png)
 
-
----
-
 ## Results
-
-![Development of NDVI, NBR, and dNBR from 2015 to 2024](figures/regrowth.png)
 
 - In **2017**, NDVI and NBR drop sharply, correlating with burned areas.  
 - **High dNBR** values in 2017 indicate severe fire damage.  
@@ -67,7 +62,7 @@ The workflow is designed to be **easily adaptable to other wildfire regions**.
 - **Negative dNBR** values after 2018 confirm regeneration.  
 - In **2022**, a noticeable decline suggests a new disturbance such as drought or another fire.
 
----
+![Development of NDVI, NBR, and dNBR from 2015 to 2024](figures/regrowth.png)
 
 ## Required Packages
 
