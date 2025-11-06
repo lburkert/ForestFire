@@ -1,14 +1,10 @@
 # 🔥 Automated Burn Area Detection and Vegetation Recovery Analysis using Sentinel-2
 
-## Project Description & Objective
-
 This project aims to **automatically detect and mask burned areas** and **visualize post-fire vegetation recovery** using **Sentinel-2 satellite imagery**.  
 As a case study, the project analyzes a **wildfire event in Portugal (July 2017)**.
 
 The analysis is based on the **Normalized Burn Ratio (NBR)** and its difference, the **Delta NBR (dNBR)**, to classify burned areas and assess burn severity.  
 Furthermore, vegetation recovery over subsequent years is examined using **NDVI** and **NBR** indices.
-
----
 
 ## 🔥 Burn Ratio Calculations
 
