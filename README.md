@@ -52,6 +52,9 @@ The workflow is designed to be **easily adaptable to other wildfire regions**.
 8. **Compute annual dNBR** as the difference between current and previous year’s maximum NBR.  
 9. **Visualize NDVI, NBR, and dNBR** trends over time.
 
+    ![Pre- and Post fire, Water Mask, NBR and dNBR](figures/burnt_areas.png)
+
+
 ---
 
 ## Results
