@@ -1,4 +1,4 @@
-# Automated Burn Area Detection and Vegetation Recovery Analysis using Sentinel-2
+# 🔥 Automated Burn Area Detection and Vegetation Recovery Analysis using Sentinel-2
 
 ## Project Description & Objective
 
@@ -10,7 +10,7 @@ Furthermore, vegetation recovery over subsequent years is examined using **NDVI*
 
 ---
 
-## Burn Ratio Calculations
+## 🔥 Burn Ratio Calculations
 
 ### **Normalized Burn Ratio (NBR)**
 
@@ -40,7 +40,7 @@ The workflow is designed to be **easily adaptable to other wildfire regions**.
 
 ![Severity of the burnt area](figures/dnbr_severity_classification.png)
 
-## Workflow Overview
+## ⚙️ Workflow Overview
 
 1. **Download Sentinel-2 scenes** using [cubo](https://cubo.readthedocs.io/en/latest/).  
 2. **Load and visualize** pre-fire and post-fire scenes.  
@@ -64,17 +64,7 @@ The workflow is designed to be **easily adaptable to other wildfire regions**.
 
 ![Development of NDVI, NBR, and dNBR from 2015 to 2024](figures/regrowth.png)
 
-## Required Packages
-
-The following Python packages are required:
-
-```bash
-numpy
-matplotlib
-cubo
-xarray
-
-📚 References
+## 📚 References
 
 Keeley, J.E. (2009).
 Fire intensity, fire severity and burn severity: A brief review and suggested usage.
@@ -91,3 +81,13 @@ Cubo Documentation.
 Available at: https://cubo.readthedocs.io/en/latest/
 
 Accessed: January 23, 2025
+
+## Required Packages
+
+The following Python packages are required:
+
+```bash
+numpy
+matplotlib
+cubo
+xarray
