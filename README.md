@@ -73,3 +73,21 @@ numpy
 matplotlib
 cubo
 xarray
+
+📚 References
+
+Keeley, J.E. (2009).
+Fire intensity, fire severity and burn severity: A brief review and suggested usage.
+International Journal of Wildland Fire, 18(1), 116–126.
+
+United Nations (n.d.).
+Normalized Burn Ratio (NBR).
+Available at: UN-SPIDER Recommended Practice
+
+Accessed: January 23, 2025
+
+Cubo (n.d.).
+Cubo Documentation.
+Available at: https://cubo.readthedocs.io/en/latest/
+
+Accessed: January 23, 2025
